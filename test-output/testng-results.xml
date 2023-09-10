@@ -2,16 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-10T02:37:56 EDT" name="Default suite" finished-at="2023-09-10T02:37:58 EDT" duration-ms="1892">
+  <suite started-at="2023-09-10T02:45:38 EDT" name="Default suite" finished-at="2023-09-10T02:45:40 EDT" duration-ms="2340">
     <groups>
+      <group name="smoke">
+        <method signature="CheckBox_Regression_Test.VerifyCheckBox()[pri:1, instance:com.formy.tests.CheckBox_Regression_Test@21de60b4]" name="VerifyCheckBox" class="com.formy.tests.CheckBox_Regression_Test"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-09-10T02:37:56 EDT" name="Default test" finished-at="2023-09-10T02:37:58 EDT" duration-ms="1892">
-      <class name="Example">
-        <test-method signature="name()[pri:0, instance:Example@6e4784bc]" started-at="2023-09-10T02:37:56 EDT" name="name" finished-at="2023-09-10T02:37:58 EDT" duration-ms="1879" status="PASS">
+    <test started-at="2023-09-10T02:45:38 EDT" name="Default test" finished-at="2023-09-10T02:45:40 EDT" duration-ms="2340">
+      <class name="com.formy.tests.CheckBox_Regression_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.formy.tests.CheckBox_Regression_Test@21de60b4]" started-at="2023-09-10T02:45:38 EDT" name="setup" finished-at="2023-09-10T02:45:39 EDT" duration-ms="1689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- name -->
-      </class> <!-- Example -->
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCheckBox()[pri:1, instance:com.formy.tests.CheckBox_Regression_Test@21de60b4]" started-at="2023-09-10T02:45:39 EDT" name="VerifyCheckBox" finished-at="2023-09-10T02:45:40 EDT" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckBox -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.CheckBox_Regression_Test@21de60b4]" started-at="2023-09-10T02:45:40 EDT" name="tearUp" finished-at="2023-09-10T02:45:40 EDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.formy.tests.CheckBox_Regression_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
